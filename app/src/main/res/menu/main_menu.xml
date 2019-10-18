@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_claqueta"
+        android:title="Cartelera" android:icon="@drawable/claqueta"/>
+    <item android:id="@+id/menu_ubicacion"
+        android:title="Ubicacion" android:icon="@drawable/ubicacion"/>
+    <item android:id="@+id/menu_confiteria"
+        android:title="Confiteria" android:icon="@drawable/palomita"/>
+
+</menu>
