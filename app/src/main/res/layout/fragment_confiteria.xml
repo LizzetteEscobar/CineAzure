@@ -10,14 +10,18 @@
 
     <TextView
         android:id="@+id/textView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="@color/colornegro"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="@color/colorblanco"
+        android:background="@color/colorrojo"
+        android:gravity="center_vertical"
+        android:textSize="24sp"
         android:text="CONFITERIA" />
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
 
         <LinearLayout
             android:layout_width="match_parent"

@@ -22,7 +22,7 @@ public class Login extends AppCompatActivity {
         Login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(view.getContext(), com.example.cineazure.Fragments.ClaquetaFragment.class);
+                Intent i = new Intent(view.getContext(), com.example.cineazure.MainActivity.class);
                 startActivityForResult(i,0);
             }
         });
